@@ -1,0 +1,55 @@
+.multiFilter {
+    position: relative;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.selected-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.selected-item {
+    padding: 5px 10px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+.options-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+    z-index: 1000;
+    background-color: white;
+}
+
+.options-container.active {
+    display: block;
+}
+
+.option-item {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.option-item:hover {
+    background-color: #f0f0f0;
+}
+
+.option-checkbox {
+    margin-right: 10px;
+}
