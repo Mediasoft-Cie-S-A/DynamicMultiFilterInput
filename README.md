@@ -23,10 +23,10 @@ Example:
 ```html
 <div id="filterContainer"></div>
 
-```script
+<script>
 const multiFilter = new MultiFilterInput('filterContainer');
 multiFilter.addItem('Option 1');
 multiFilter.addItem('Option 2');
 multiFilter.addItem('Option 3');
 multiFilter.addItem('Option 4');
-
+</script>
